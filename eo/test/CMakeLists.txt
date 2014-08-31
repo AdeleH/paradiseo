@@ -24,6 +24,8 @@ link_directories(${EO_BIN_DIR}/lib)
 ### 3) Define your targets and link the librairies
 ######################################################################################
 
+add_subdirectory(mpi)
+
 set (TEST_LIST
   t-eofitness
   t-eoRandom
